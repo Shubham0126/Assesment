@@ -1,0 +1,116 @@
+.list-item{
+    margin: 10px 25px;
+}
+.list-item a{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.list-item:hover{
+    border-bottom: 2px solid black;
+    border-radius: 0%;
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .smart-study{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .smart-study-text{
+    padding: 3% 10%;
+  }
+  .smart-study-text h2{
+    color: blue;
+  }
+
+  .section-container{
+    padding: 5%;
+    background-color: rgb(231, 246, 255);
+  }
+
+  .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-heading h2{
+    color: blue;
+  }
+  .home-heading p{
+    font-size: 1em;
+    line-height: 32px;
+  }
+  .home-card{
+    display: flex;
+    align-items: end;
+  }
+  .ant-card-1{
+    background-image: url('images/Pic-1.png');
+    width: 200px;
+    height: 350px;
+
+  }
+  .ant-card-2{
+    background-image: url('images/Pic-2.png');
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+  }
+  .ant-card-3{
+    background-image: url('images/Pic-3.png');
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+  }
+  .ant-card-4{
+    background-image: url('images/Pic-4.png');
+    width: 150px;
+    height: 350px;
+    margin: 10px;
+  }
+ 
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+  .card-text-hover{
+    display: none;
+  }
+
+  .card-hover:hover{
+    width: 200px;
+    height: 350px;
+  }
+
+  .card-hover:hover .card-text-hover{
+    display: block;
+  }
+
+  .ant-card{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .ant-card-text{
+    margin: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(2,2,2,0.25);
+    backdrop-filter: blur(2px);
+    color: white;
+  }
+  
+ @media screen and (max-width: 1000px){
+  .home-card{
+    display: none;
+  }
+ }
